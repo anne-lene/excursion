@@ -1,0 +1,88 @@
+/* Reset some basic styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.video-section {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.video-section video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+.content-section {
+    padding: 20px;
+}
+
+.content-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.content-section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+.final-section {
+    padding: 20px;
+}
+
+.final-section img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.final-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.final-section a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.final-section a:hover {
+    text-decoration: underline;
+}
